@@ -1,5 +1,5 @@
 # password-pwned
-Check SHA1 Hash of password value against known compromised passwords list from [HaveIBeenPwned.com]
+Check SHA1 Hash of password value against known compromised passwords list from https://haveibeenpwned.com
     
 First 5 chars of SHA1 sent as querystring & receives CRLF-delimited list of SHA1 suffix & count, e.g. using password value "password123":
 ```
