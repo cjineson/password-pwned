@@ -1,3 +1,6 @@
+//Polyfill for Fetch API see https://github.com/github/fetch
+import 'whatwg-fetch'
+
 const hostname = 'api.pwnedpasswords.com'
 const debug = false;
 
